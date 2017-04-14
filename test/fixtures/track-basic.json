@@ -1,0 +1,26 @@
+{
+    "integrations": {},
+    "context": {
+        "page": {
+            "path": "/",
+            "referrer": "https://www.astronomer.io/",
+            "search": "",
+            "title": "Astronomer | Home",
+            "url": "https://www.astronomer.io"
+        },
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
+        "library": {
+            "name": "analytics.js",
+            "version": "3.0.13"
+        }
+    },
+    "properties": {},
+    "event": "Viewed Product",
+    "anonymousId": "b1d963aa-150d-42b6-bc33-fec606756158",
+    "timestamp": "2017-04-14T13:11:00.184Z",
+    "type": "track",
+    "appId": "app_id",
+    "userId": 5555,
+    "messageId": "27b473ee-b01f-46a8-b18a-1fde39ad9cd1",
+    "sentAt": "2017-04-14T13:11:00.191Z"
+}

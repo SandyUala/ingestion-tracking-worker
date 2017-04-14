@@ -1,0 +1,9 @@
+*.log
+node_modules/
+properties/dev.properties
+properties/sample.properties
+.env
+.git/
+.nvmrc
+.gitignore
+scripts/

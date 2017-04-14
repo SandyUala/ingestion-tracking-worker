@@ -1,0 +1,26 @@
+{
+  "name": "astronomer-kinesis-inestion-tracking",
+  "version": "0.0.1",
+  "description": "Kinesis consumer to track ingested events to the Astronomer API.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "kcl-bootstrap -e -p properties/dev.properties -j /usr/bin/java",
+    "start": "kcl-bootstrap -e -p properties/prod.properties -j /usr/bin/java",
+    "test": "mocha test/index.test.js",
+    "test-watch": "mocha -w test/index.test.js"
+  },
+  "author": "Alois <alois@astronomer.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@astronomer/kinesis-consumer": "^4.1.0",
+    "analytics-node-kinesis": "https://s3.amazonaws.com/astronomer-dependencies/analytics-node-kinesis-1.0.0.tgz",
+    "aws-kcl": "^0.6.0",
+    "segmentio-facade": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
