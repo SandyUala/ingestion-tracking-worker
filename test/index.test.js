@@ -1,7 +1,7 @@
 const { stub, spy } = require('sinon');
 const fs = require('fs');
 const { assert } = require('chai');
-const IngestionTracking = require('../src/record-processor.js');
+const IngestionTracking = require('../lib/record-processor.js');
 
 describe('Kinesis Consumer Ingestion Tracking', function () {
   let consumer;
