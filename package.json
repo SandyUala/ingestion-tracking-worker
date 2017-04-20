@@ -12,7 +12,7 @@
   "author": "Alois <alois@astronomer.io>",
   "license": "MIT",
   "dependencies": {
-    "@astronomer/kinesis-consumer": "^4.1.0",
+    "@astronomer/kinesis-consumer": "^4.2.0",
     "analytics-node-kinesis": "https://s3.amazonaws.com/astronomer-dependencies/analytics-node-kinesis-1.0.0.tgz",
     "aws-kcl": "^0.6.0",
     "segmentio-facade": "^3.2.0"
