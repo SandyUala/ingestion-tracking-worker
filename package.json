@@ -13,14 +13,19 @@
   "license": "MIT",
   "dependencies": {
     "@astronomer/kinesis-consumer": "^4.2.0",
+    "@astronomerio/astronomer-logger": "^2.0.0",
     "analytics-node-kinesis": "https://s3.amazonaws.com/astronomer-dependencies/analytics-node-kinesis-1.0.0.tgz",
     "aws-kcl": "^0.6.0",
     "segmentio-facade": "^3.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "dotenv": "^4.0.0",
-    "mocha": "^3.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.3.0",
     "sinon": "^2.1.0"
   }
 }

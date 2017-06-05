@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "func-names": [
+      "error",
+      "as-needed"
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true
+      }
+    ]
+  },
+  "env": {
+    "node": true
+  }
+}
