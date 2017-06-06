@@ -18,4 +18,16 @@ describe('Kinesis Consumer Ingestion Tracking', () => {
   it('should initialize with correct properties', () => {
     assert.ok(consumer.analytics);
   });
+
+  it('should fail with missing env vars', () => {
+    delete process.env.ASTRONOMER_APP_ID;
+    delete process.env.ASTRONOMER_STREAM_NAME;
+    assert.throws(() => {
+      consumer = new IngestionTracking({
+        logger: createLogger('integrator-worker', {
+          logPath: './',
+        }),
+      });
+    });
+  });
 });
