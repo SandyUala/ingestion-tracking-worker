@@ -12,10 +12,12 @@
   "author": "Alois <alois@astronomer.io>",
   "license": "MIT",
   "dependencies": {
+    "@astronomer/bunyan-udp": "^1.0.0",
     "@astronomer/kinesis-consumer": "^6.0.0",
     "@astronomerio/astronomer-logger": "^2.0.0",
-    "analytics-node-kinesis": "https://s3.amazonaws.com/astronomer-dependencies/analytics-node-kinesis-1.0.0.tgz",
     "aws-kcl": "^0.6.0",
+    "bunyan": "^1.8.10",
+    "dotenv": "^4.0.0",
     "segmentio-facade": "^3.2.0"
   },
   "devDependencies": {
