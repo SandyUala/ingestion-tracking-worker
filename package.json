@@ -1,6 +1,6 @@
 {
   "name": "astronomer-kinesis-inestion-tracking",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Kinesis consumer to track ingested events to the Astronomer API.",
   "main": "src/index.js",
   "scripts": {
