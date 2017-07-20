@@ -1,5 +1,5 @@
 IMAGE_NAME = astronomerio/ingestion-tracking-worker
-VERSION = 1.4.1
+PACKAGE_VERSION=$(shell node -p "require('./package.json').version")
 
 .PHONY: build build-version push push-version
 
