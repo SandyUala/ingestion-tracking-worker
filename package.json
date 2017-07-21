@@ -13,7 +13,6 @@
   "author": "Alois <alois@astronomer.io>",
   "license": "MIT",
   "dependencies": {
-    "@astronomer/bunyan-udp": "^1.0.0",
     "@astronomer/kinesis-consumer": "^6.0.0",
     "@astronomerio/astronomer-logger": "^2.0.0",
     "async": "^2.4.1",
