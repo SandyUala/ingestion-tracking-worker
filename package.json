@@ -14,7 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "@astronomer/kinesis-consumer": "^6.0.0",
-    "@astronomerio/astronomer-logger": "^2.0.0",
     "async": "^2.4.1",
     "aws-kcl": "^0.6.0",
     "bunyan": "^1.8.10",
