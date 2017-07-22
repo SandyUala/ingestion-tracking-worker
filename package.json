@@ -13,10 +13,11 @@
   "author": "Alois <alois@astronomer.io>",
   "license": "MIT",
   "dependencies": {
-    "@astronomer/kinesis-consumer": "^6.0.0",
+    "async": "^2.5.0",
     "aws-kcl": "^0.6.0",
     "bunyan": "^1.8.10",
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "promise-retry": "^1.1.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
